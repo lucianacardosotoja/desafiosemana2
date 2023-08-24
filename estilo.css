@@ -1,0 +1,96 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}  
+#imagem-fundo{
+    background: url("imagem/fundo.jpg");
+    height: 800px; 
+    text-align: center;
+    background-size: cover;
+}
+#titulo{
+    text-align: center;
+    color: green;
+    padding-top: 20%; 
+    font-size: 70px;
+    line-height: 0.7;
+}
+#subtitulo{
+    text-align: center;
+    color: black;
+    margin-left: 20%;
+    margin-right: 20%; 
+    border-top:4px solid  white;
+    text-shadow:1px 1px black ;
+}
+#acao{
+    color: black;
+    border: 1px black solid;
+    padding: 10px 20px  10px  20px;
+}
+#cuidados{
+    padding: 20px;
+    width: 90%;
+}
+.icone{
+    width: 255px;
+}
+#projeto{
+    background-color: white;
+    padding:20px ;
+}
+h5{
+    width: 90%;
+}
+.coluna{
+    float:left ;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+    
+}
+.justificado{
+    text-align: justify;
+}
+.centralizado{
+    text-align: center;
+}
+.colunadois{
+    width: 40%;
+    display: flex;
+}
+header{
+    background-color: wheat;
+    color:royalblue;
+    height: 75px;
+    width: 100%;
+    position: fixed;
+       z-index: 10;
+}
+#logo {
+    width: 100px;
+    position: absolute;
+    top: 2x;
+    margin-left: 6%;
+}
+#menu {
+    float:right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+}
+li {
+    float: left;
+    padding: 10px 5px 10px 5px;
+}
+li:hover {
+    background-color: rosybrown;
+}
+footer {
+    background-color:wheat;
+    float: left;
+    width: 100%;
+    height: 30%;
+    color: black;
+}
+
